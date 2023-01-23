@@ -43,8 +43,9 @@ html, body {
 }
 
 .main-header {
-    background-color: red;
-    background-image: url('https://www.databankimx.com/wp-content/uploads/2015/07/Microsoft-Cloud-Offerings.jpg');
+    background-color: white;
+    /*background-image: url('https://www.databankimx.com/wp-content/uploads/2015/07/Microsoft-Cloud-Offerings.jpg');*/
+    background-image: url('https://images.pexels.com/photos/956981/milky-way-starry-sky-night-sky-star-956981.jpeg');
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
@@ -71,8 +72,8 @@ html, body {
 .my-name {
     text-align: center;
     margin: 15px;
-    font-size: 3em;
-    font-weight: normal;
+    font-size: 3.5em;
+    font-weight: bold;
     color: white;
 }
 
@@ -101,9 +102,9 @@ html, body {
 
 .about-prof-image {
     float: left;
-    height: 175px;
+    height: 190px;
     width: 190px;
-    margin: 30px;
+    margin: 60px;
     border-radius: 50%;
 }
 
