@@ -1,4 +1,4 @@
-name: delete workflow
+name: Delete workflow
 on:
   workflow_dispatch:
 jobs:
@@ -6,7 +6,7 @@ jobs:
     name: Delete
     runs-on: ubuntu-latest
     steps:
-      - name: deleting
+      - name: Deleting
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.HOST }}
