@@ -6,7 +6,7 @@ jobs:
     name: Delete
     runs-on: ubuntu-latest
     steps:
-      - name: delete
+      - name: deleting
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.HOST }}

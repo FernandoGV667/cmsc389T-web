@@ -6,7 +6,7 @@ jobs:
     name: Clone
     runs-on: ubuntu-latest
     steps:
-      - name: testing
+      - name: cloning
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.HOST }}
